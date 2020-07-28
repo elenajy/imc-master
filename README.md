@@ -1,0 +1,2 @@
+# imc
+ Idaho Math Camp
