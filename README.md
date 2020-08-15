@@ -1,2 +1,2 @@
 # imc
- Idaho Math Camp
+ Idaho Math Camp @ idahomathcamp.com
