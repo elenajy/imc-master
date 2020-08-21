@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
+    <title>IMC Home</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon.ico" />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
@@ -19,10 +20,18 @@
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark navbar-custom">
-        <div class="container"><a class="navbar-brand" href="#">IDAHO math camp</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand" href="index.html">Idaho Math Camp</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="aboutus.html">about us</a></li>
+                    <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true" href="#">About</a>
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" role="presentation" href="history.html">History</a>
+                            <a class="dropdown-item" role="presentation" href="format.html">Format</a>
+                            <a class="dropdown-item" role="presentation" href="events.html">Past Events</a>
+                            <a class="dropdown-item" role="presentation" href="testimonials.html">Testimonials</a>
+                        </div>
+                    </li>
+                    <li class="nav-item" role="presentation"></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="signup.html">register</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">contact</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="resources.html">Resources</a></li>
@@ -47,15 +56,24 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-sm-4 col-md-3 item">
-                        <h3>Links</h3>
+                        <h3>About</h3>
                         <ul>
-                            <li>About Us</li>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Format</a></li>
+                            <li><a href="#">Past Events</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Connect</h3>
+                        <ul>
+                            <li>Register</li>
                             <li><a href="#">Contact Us</a></li>
                             <li><a href="#">Resources</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
-                        <p class="copyright">Company Idaho Math Camp © 2020</p>
+                        <p class="copyright">Idaho Math Camp © 2020</p>
                     </div>
                 </div>
             </div>
@@ -63,6 +81,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/multilevel-dropdown.js"></script>
 </body>
 
 </html>
